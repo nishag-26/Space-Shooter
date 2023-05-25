@@ -12,7 +12,7 @@ body {
 
 #shooter {
    background-image: url("./images/spaceship-icon-729x1024-ooifmqa3.png");
-   /*  background-color: rgb(0, 115, 255);*/
+    background-color: rgb(0, 115, 255);
   position: absolute;
 }
 
