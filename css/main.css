@@ -1,16 +1,18 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 #board {
- /* background-color: rgb(12, 22, 13);*/
-  background-image: url("./images/heic0611b.jpg");
+  /* background-color: rgb(12, 22, 13);*/
+   background-image: url("./images/heic0611b.jpg"); 
   height: 100vh;
   position: relative;
 }
 
 #shooter {
-  background-color: rgb(0, 115, 255);
+   background-image: url("./images/spaceship-icon-729x1024-ooifmqa3.png");
+   /*  background-color: rgb(0, 115, 255);*/
   position: absolute;
 }
 
@@ -19,7 +21,8 @@ body {
   position: absolute;
   border-radius: 50%;
 }
-.bullet{
-    background-color: red; 
-position: absolute;
+
+.bullet {
+  background-color: red;
+  position: absolute;
 }
