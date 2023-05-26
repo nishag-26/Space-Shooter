@@ -1,10 +1,9 @@
 class Shooter {
-  constructor(x, y, bulletController) {
+  constructor(x, y, ) {
     this.positionX = x;
     this.positionY = y;
-    this.bulletController = bulletController;
-    this.width = 1;
-    this.height = 10;
+    this.width = 10;
+    this.height = 20;
     this.speed = 4;
     this.positionX = 50 - this.width / 2;
     this.positionY = 10;
@@ -15,12 +14,10 @@ class Shooter {
   }
   shoot() {
     if (bulletArr.length < 3) {
-        console.log("shoot the target");
-        const bullet = new Bullet(this.positionX);
+        console.log("shoot the target");      
+        const bullet = new Bullet(this.positionX + this.width / 2);
         bulletArr.push(bullet);
     }
-
-    //this.bulletController.shoot(bulletX, bulletY, speed, delay, damage)
   }
   createDomElement() {
     // step1: create the element
