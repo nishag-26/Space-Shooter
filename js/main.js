@@ -74,7 +74,6 @@ class Bullet {
     this.domElement.style.bottom = this.positionY + "vh";
   }
 }
-
 class Obstacle {
   constructor() {
     this.width = 5;
